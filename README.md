@@ -1,5 +1,6 @@
-Generate large, labelled image datasets from a 2D diorama using **Blender**, **Hunyuan 3D 2.0**, and **Edge Impulse**.
+Generate large, labelled image datasets like the one shown in the below image from a 2D diorama using **Blender**, **Hunyuan 3D 2.0**, and **Edge Impulse**.
 
+![diorama](https://github.com/user-attachments/assets/e6abb44a-6038-4f67-9716-603aa009f3d0)
 
 
 [Edge Impulse](https://studio.edgeimpulse.com/) · [Hunyuan 3D 2.0](https://github.com/Tencent/Hunyuan3D) · [Blender LTS](https://www.blender.org/download/)
@@ -9,7 +10,6 @@ Generate large, labelled image datasets from a 2D diorama using **Blender**, **H
 
 ## Project Overview
 
-![diorama](https://github.com/user-attachments/assets/e6abb44a-6038-4f67-9716-603aa009f3d0)
 
 - **Reusable Blender scene** with a parametric camera rig  
 - **Python script** to:
