@@ -1,10 +1,15 @@
 Generate large, labelled image datasets from a 2D diorama using **Blender**, **Hunyuan 3D 2.0**, and **Edge Impulse**.
 
+
+
 [Edge Impulse](https://studio.edgeimpulse.com/) · [Hunyuan 3D 2.0](https://github.com/Tencent/Hunyuan3D) · [Blender LTS](https://www.blender.org/download/)
 
----
+
+
 
 ## Project Overview
+
+![diorama](https://github.com/user-attachments/assets/e6abb44a-6038-4f67-9716-603aa009f3d0)
 
 - **Reusable Blender scene** with a parametric camera rig  
 - **Python script** to:
@@ -12,11 +17,22 @@ Generate large, labelled image datasets from a 2D diorama using **Blender**, **H
   - Scale and place assets in the scene  
   - Rotate the scene and render *n* images for training
 
----
+
 
 ## Quick Start
 
-### Prepare 3D models and update this section with your own paths
+### Prepare 3D models with the latest demo version of [Hunyuan 3D 2.0](https://github.com/Tencent/Hunyuan3D) for free
+
+![2dto3d](https://github.com/user-attachments/assets/05f4bad6-3c37-4f50-8c07-fe92cf8d4c61)
+
+
+first you will need to grab some images of cars and a diorama, here are some samples I used:
+
+![sample-car](https://github.com/user-attachments/assets/1be31127-6d88-4412-9780-a641eaf52a72)
+
+![sample-diorama](https://github.com/user-attachments/assets/a2df94ea-de39-4b3b-97d2-5e24db5de64b)
+
+Now update the following section of our python script to your generated assets and paths
 
 ```python
 diorama_path = r"/Users/yourname/Downloads/your_diorama.glb"
