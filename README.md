@@ -29,24 +29,23 @@ output_folder = r"/Users/yourname/Downloads/images"
 ```
 
 ### Run the script in Blender
-Open Blender
+1. Open Blender
 
-Switch to the Scripting workspace
+2. Switch to the Scripting workspace
 
-Load render_diorama.py
+3. Paste the contents from render_diorama.py
 
-Click Run Script
+4. Click Run Script
 
 The script will:
 
-Load the diorama and car models
+* Load the diorama and car models
 
-Position cars in a circle
+* Position cars in a circle
 
-Set up lighting and camera
+* Set up lighting and camera
 
-Render 36 PNG images into output_folder
+* Render 36 PNG images into output_folder
 
 ### Upload to Edge Impulse
-Use Edge Impulse Studio (GUI) or the CLI uploader to add the generated images to your project for annotation and training.
-
+Use any method of your own choosing to upload to Edge Impulse by following out [Data Aquistion Docs](https://docs.edgeimpulse.com/docs/edge-impulse-studio/data-acquisition)
