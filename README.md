@@ -45,6 +45,7 @@ output_folder = r"/Users/yourname/Downloads/images"
 ```
 
 ### Run the script in Blender
+
 1. Open Blender
 
 2. Switch to the Scripting workspace
@@ -63,5 +64,5 @@ The script will:
 
 * Render 36 PNG images into output_folder
 
-### Upload to Edge Impulse
+### Upload to Edge Impulse
 Use any method of your own choosing to upload to Edge Impulse by following out [Data Aquistion Docs](https://docs.edgeimpulse.com/docs/edge-impulse-studio/data-acquisition)
