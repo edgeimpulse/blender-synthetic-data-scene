@@ -65,4 +65,19 @@ The script will:
 * Render 36 PNG images into output_folder
 
 ### Upload to Edge Impulse
-Use any method of your own choosing to upload to Edge Impulse by following out [Data Aquistion Docs](https://docs.edgeimpulse.com/docs/edge-impulse-studio/data-acquisition)
+Use any method of your own choosing to upload to Edge Impulse by following our [Data Acquisition Docs](https://docs.edgeimpulse.com/docs/edge-impulse-studio/data-acquisition).
+
+
+## Follow-up: the Blender add-on
+
+Copy‑pasting a script works, but it isn't something you'd hand to a teammate. The
+[**Edge Impulse Synthetic Data add-on**](addon/README.md) wraps this exact workflow into a
+proper Blender plugin: a sidebar panel where you pick your assets, render a rotated
+dataset, and upload it straight to Edge Impulse — no scripting workspace, no manual upload
+step.
+
+- Adds an **Edge Impulse** tab to the 3D Viewport sidebar (`N`).
+- One click each to **Setup Scene → Render Dataset → Upload to Edge Impulse**.
+- Uploads via the Ingestion API using only Blender's built-in Python (no `pip install`).
+
+See [addon/README.md](addon/README.md) for install and usage.
